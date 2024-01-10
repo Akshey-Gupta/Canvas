@@ -1,0 +1,12 @@
+body {
+  background-color: wheat;
+  font-family: Verdana;
+  margin: 40px;
+}
+canvas {
+  height: 200px;
+  border: 1px solid gray;
+}
+input {
+  font-size: 12pt;
+}

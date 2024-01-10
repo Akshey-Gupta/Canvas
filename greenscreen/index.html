@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script
+  src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+  </script>
+    <Canvas class="canv"></Canvas>
+    <h1>Load Image</h1>
+    <input type="file"  id="file1" multiple="false" accept="image/*" onchange="upload()">
+    <h1>Choose filter</h1>
+    <input type="button" value="Grayscale" id="gray" onclick="makeGrayscale()">
+    <input type="button" value="Red" id="red" onclick="makeRed()">
+    <input type="button" value="Vertical Rainbow" id="rainbow" onclick="makeVRainbow()">
+    <input type="button" value="Horizontal Rainbow" id="rainbow" onclick="makeHRainbow()">
+    <input type="button" value="Behind Bars" id="shark" onclick="behindBars()">
+    <div>
+      <input type="button" value="Clear Filter" id="clrfilter" onclick="clearFilter()">
+      <input type="button" value="Clear Image" id="clrimage" onclick="clearImage()">
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
